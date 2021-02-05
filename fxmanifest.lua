@@ -2,18 +2,17 @@
 ---By NachoASD @2020   ---
 ---NachoASD#5887       ---
 --------------------------
-
-author 'NachoASD'
-description 'Un script para tener monedas de donador'
-version '1.0.0'
-
-fx_version 'adamant'
+fx_version 'cerulean'
 game 'gta5'
 
+author 'NachoASD'
+description 'Un script para ver un menu personal con tu informacion'
+version '1.0.0'
+
 shared_script 'config.lua'
+
 client_scripts {
-    "client.lua",
-    "@NativeUI/NativeUI.lua"
+    "client.lua"
 }
 server_scripts {
     "server.lua",
